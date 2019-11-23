@@ -1,0 +1,314 @@
+
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+    p{
+        font-family: 'Work Sans',sans-serif;
+    }
+body, html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Header */
+
+	#header {
+		position: relative;
+		margin: 0;
+        background-image: url(../img/lappy.jpg);
+		background-size: cover;
+		background-position:center center;
+		background-repeat:no-repeat;
+		padding: 14em 0 18em 0;
+		text-align: center;
+		
+	}
+
+		#header header h1 {
+			font-size: 30px;
+			line-height: 1.25em;
+            margin-bottom: 0;
+            color:#fff;
+            font-weight: 900;
+            text-transform:uppercase;
+		}
+		
+        #header span {
+            color: orangered;
+            
+        }
+
+        .navbar{
+            background-color: #fff;
+        }
+        
+        .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+          color: #fff;
+        }
+        .navbar-nav  li  a {
+          color:#1F3357;
+          font-size: 11px;
+          font-weight: 600;
+        }
+        .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+          color: orangered;
+          transition: 0.5s;
+          border-bottom: 2px solid #1F3357;
+        }
+        
+/* Main Sections */
+    .main h2{
+        color: #1F3357;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1.5em;
+    }
+
+    .main span{
+        color: orangered;
+    }
+
+    .main h2+p{
+        font-size: 20px;
+        color: #1F3357;
+        line-height: 1.5em;
+    }
+
+    .main h2+p+p{
+        font-size: 16px;
+        color: gray;
+        line-height: 2em;
+    }
+
+    .section-2{
+        color: #fff;
+        background-image: url(../img/bgg.png);
+		background-size: cover;
+		background-position:center center;
+		background-repeat:no-repeat;
+    }
+
+    .section-2 h3{
+        font-family: 'Avenir Next',sans-serif;
+        font-size:30px;
+        line-height:2.5rem;
+        display: block;
+        font-weight: 900;
+        margin:40% 0 2% 0;
+    }
+
+    .section-2 p{
+        font-family: 'Work Sans',sans-serif;
+        font-size: 16px;
+        line-height: 2rem;
+        margin-top: 3rem;
+    
+        
+    }
+
+    .bg-img{
+        min-height: 400px;
+        background-image: url(../img/des.jpg);
+        background-size: 500px;
+        margin-top: 43%;
+        scroll-margin-left: 5%;
+		background-position:center center;
+		background-repeat:no-repeat;
+    }
+
+   .section-3 h3{
+        font-family: 'Avenir Next',sans-serif;
+        font-size:30px;
+        color: #1F3357;
+        line-height:2.5rem;
+        display: block;
+        font-weight: 900;
+   }
+
+   .section-3 p{
+        font-size: 16px;
+        color: gray;
+        line-height: 2em;
+   }
+
+   .section-4 h3{
+       text-align: center;
+       font-family: 'Avenir Next',sans-serif;
+        font-size:30px;
+        color: #1F3357;
+        line-height:2.5rem;
+        display: block;
+        font-weight: 900;
+   }
+
+   .bg-img1{
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/bg-1.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    
+}
+.bg-img2{
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/bg2.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:400px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+  }
+  
+  .container .overlay {
+    opacity:0.5;
+}
+
+.container:hover .overlay {
+    opacity:1;
+    color: #fff;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .footer{
+      background-color:#1e252c;
+      color: #fff;
+  }
+  .footer h2{
+    font: 2rem 'Lora',sans-serif;
+    color: white;
+    line-height: 46px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .footer p{
+    color: white;
+    line-height: 46px;
+    margin-top: 25px;
+    text-align: center;
+    
+  }
+.footer ul{
+    list-style: none;
+    text-decoration: none;
+    color: #aaaaaa;
+    font: 14px 'Work Sans',sans-serif;
+}
+.footer ul a{
+    list-style: none;
+    text-decoration: none;
+    color: #aaaaaa;
+    font: 14px 'Work Sans',sans-serif;
+}
+.footer ul li{
+    margin-bottom: 10px;
+}
+  .footer h3{
+    color: white;
+    font: 400 16px 'Avenir Next',sans-serif;
+    line-height: 24px;
+    margin-bottom: 0.8rem;
+  }
+.copyright {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    background-color: #1F3357;
+}
+
+
+
+
+@media only screen and (max-width: 769px) {
+    .navbar-nav .open .dropdown-menu > li > a {
+        color: #d7e2e9;
+      }
+    .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #e5dbdb;
+     
+      }
+    .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #e5dbdb;
+        background-color: #009999;
+      }
+     .navbar-toggler {
+         background-color:#009999;
+     }
+    .navbar-toggler-icon{
+        color: #fff;
+    }
+    #header {
+		padding: 10em 0 10em 0;
+		
+	}
+    #header header h1 {
+        font-size: 20px;
+        line-height: 1.25em;
+        margin-bottom: 0;
+        color:#fff;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    .main h2{
+        color: #1F3357;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1.5em;
+    }
+    .section-2 h3{
+        font-size:18px;
+    }
+    .section-3 h3{
+        font-size:18px;
+   }
+   .section-4 h3{
+    font-size:18px;
+}
+.bg-img1{
+    margin-bottom: 20px;
+}
+
+}  
